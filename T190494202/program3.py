@@ -1,5 +1,4 @@
 import sqlite3
-
 def create_table():
     conn = sqlite3.connect('mydatabase.db')
     c = conn.cursor()
